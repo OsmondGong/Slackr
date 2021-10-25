@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffccbc;
+    height: 100%;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#383838;
+}
+hr {
+    margin-bottom: 0;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+h1 {
+    margin: 0;
+}
+nav:hover {
+    cursor: pointer;
+}
+div.user:hover {
+    cursor: pointer;
+}
+span.user:hover {
+    background:rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+}
+.button {
+    background: none;
+    border: none;
+}
+.right-button {
+    float: right;
+}
+.confirm-button {
+    background-color: #FF9AA2;
+}
+.cancel-button {
+    background-color: #A9A9A9;
+}
+.button-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hidden {
+    display: none;
+}
+.reactions-container {
+    display: flex;
+    flex-direction: row;
+}
+.message {
+    background: #525252;
+    border-radius: 5px;
+    width: 98%;
+    padding:0 0.8%;
+    word-break:break-word;
+}
+.edit-message-input {
+    word-break:break-word;
+    display: none;
+    width: 100%;
+    background: none;
+    color:white
+}
+.back-button {
+    background: none;
+    border: none;
+}
+.normal-user-img {
+    max-width: 50x;
+    max-height: 50px;
+    object-fit: cover;
+}
+.small-user-img{
+    height: 25px;
+    width: auto;
+}
+.pad-site {
+    padding: 1%;
+}
+.bold-font {
+    font-weight: bold;
+}
+.bold-text {
+    font-weight: bold;
+}
+.medium-font {
+    font-size: 20px;
+}
+.small-font {
+    font-size: 8px;
+}
+.white-font {
+    color: white;
+}

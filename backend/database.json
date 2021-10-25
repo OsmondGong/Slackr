@@ -1,456 +1,73 @@
 {
   "users": {
-    "15272": {
-      "email": "mia@email.com",
-      "name": "Mia",
-      "password": "solongbouldercity",
-      "bio": null,
-      "image": null,
+    "17897": {
+      "email": "b",
+      "name": "c",
+      "password": "d",
+      "bio": "Hi! I have recently joined Slackr! :)",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0QDQ0NDg0QDw4QDQ4NDQ4                        NDRsOEA4OFREWFxURFRUYIiggGBolGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRk                        rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOYA2wM                        BIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIH/8QALxABAAEBBwIEBgIDAQAAAAAAAAE                        CAwQREjFRkSFBBTJhcSKBobHB0UJyI1KCFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAA                        AAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+qAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACJnDXp7gkV673RHfH2hz/8AdT/rILg                        qRfqNp+7rReaJ/lz0B2ERKQAAAAAAAAAAAAAAAAAAEChfLxMzNET07+oOltfYjpTGPr2U7S0qq1nH7PI                        oAAAA7WF4mjSImO8NCxtqaoxj5xOsMl6s65pmJhBsDzRVjETHeMXoAAAAAAAAAAAAAAAAHi0ry0zM9oZ                        DQ8Qq+DDeqP2zwAFAAAAAAGlcasaI9Oiwp+HeWr+34W0EgAAAAAAAAAAAAAAAp+I+Wn+0/ZRX/EY+Gn+                        34UAAFAAAAAAFzw6fNHtK8oeHa1+0fdfQAAAAAAAAAAAAAAAAUb/a/wAMNpx/SmsX+Pj/AOY/KuAAoAA                        AAAAsXK1y1ZcPNMRjs0WXdY/yUe7UQSAAAAAAAAAAAAAAACj4jT5Z96Z+6m1LzY56cMcJicYZtpRNMzT                        OsA8gKAAAAAERjMRv0BYuFONeO0TPPRpK91u80Y4z1nDRYQAAAAAAAAAAAAAAAAGdf6cK8d4+rRcL3Y5                        qemsdY9fQGYAoAAAAO1zpxtI9Oriv3GywjNOs6eyC2AAAAAAAAAAAAAAAAAAhKAZd7iItKvlP0cnW9Tj                        aVe+HEYOSgAAAA2aY6QxWzROMRO8RP0QegAAAAAAAAAAAAAAAAc7W1pp1n5dwerSuKYmZ0hQtb5VPl6R                        9UXi9zVExEYR33lXAAUAAAAHaxvNdPTWNpcQGpYW8Vx06Yaw7Mqwt5o06xOsSvWV5oq74TtKDuAAAAAA                        AAAAhyt7xTT6ztClaXuue+EbQDRqqiNZw93C0vlEafF7ftnTMzrOPuAsWl8rnT4Y9NeVeZBQAAAAAAAA                        AAAB1srzXTpOMbT1WrO/Uz5omn6woCDXptKZ0mJ+b2xXSi3rjSr5T1BrCrYXuKulXSd+0rIJAAcbza5a                        ce+kOzPv+M1RGE4RG24KszMzjOveROWdp4Ms7TwogTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTln                        aeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08A                        heuNtj8M6xpO8KWSdp4e7DGK6ZwnWOyDWAAAAAAAAAAAAAAAAAAAAAAAAAAABCQB//9k=",
       "sessionActive": true
     },
-    "56422": {
-      "email": "sebastian@email.com",
-      "name": "Sebastian",
-      "password": "chickenonastick",
-      "bio": null,
-      "image": null,
+    "47800": {
+      "email": "d",
+      "name": "d",
+      "password": "e",
+      "bio": "Hi! I have recently joined Slackr! :)",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0QDQ0NDg0QDw4QDQ4NDQ4                        NDRsOEA4OFREWFxURFRUYIiggGBolGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRk                        rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOYA2wM                        BIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIH/8QALxABAAEBBwIEBgIDAQAAAAAAAAE                        CAwQREjFRkSFBBTJhcSKBobHB0UJyI1KCFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAA                        AAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+qAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACJnDXp7gkV673RHfH2hz/8AdT/rILg                        qRfqNp+7rReaJ/lz0B2ERKQAAAAAAAAAAAAAAAAAAEChfLxMzNET07+oOltfYjpTGPr2U7S0qq1nH7PI                        oAAAA7WF4mjSImO8NCxtqaoxj5xOsMl6s65pmJhBsDzRVjETHeMXoAAAAAAAAAAAAAAAAHi0ry0zM9oZ                        DQ8Qq+DDeqP2zwAFAAAAAAGlcasaI9Oiwp+HeWr+34W0EgAAAAAAAAAAAAAAAp+I+Wn+0/ZRX/EY+Gn+                        34UAAFAAAAAAFzw6fNHtK8oeHa1+0fdfQAAAAAAAAAAAAAAAAUb/a/wAMNpx/SmsX+Pj/AOY/KuAAoAA                        AAAAsXK1y1ZcPNMRjs0WXdY/yUe7UQSAAAAAAAAAAAAAAACj4jT5Z96Z+6m1LzY56cMcJicYZtpRNMzT                        OsA8gKAAAAAERjMRv0BYuFONeO0TPPRpK91u80Y4z1nDRYQAAAAAAAAAAAAAAAAGdf6cK8d4+rRcL3Y5                        qemsdY9fQGYAoAAAAO1zpxtI9Oriv3GywjNOs6eyC2AAAAAAAAAAAAAAAAAAhKAZd7iItKvlP0cnW9Tj                        aVe+HEYOSgAAAA2aY6QxWzROMRO8RP0QegAAAAAAAAAAAAAAAAc7W1pp1n5dwerSuKYmZ0hQtb5VPl6R                        9UXi9zVExEYR33lXAAUAAAAHaxvNdPTWNpcQGpYW8Vx06Yaw7Mqwt5o06xOsSvWV5oq74TtKDuAAAAAA                        AAAAhyt7xTT6ztClaXuue+EbQDRqqiNZw93C0vlEafF7ftnTMzrOPuAsWl8rnT4Y9NeVeZBQAAAAAAAA                        AAAB1srzXTpOMbT1WrO/Uz5omn6woCDXptKZ0mJ+b2xXSi3rjSr5T1BrCrYXuKulXSd+0rIJAAcbza5a                        ce+kOzPv+M1RGE4RG24KszMzjOveROWdp4Ms7TwogTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTln                        aeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08A                        heuNtj8M6xpO8KWSdp4e7DGK6ZwnWOyDWAAAAAAAAAAAAAAAAAAAAAAAAAAABCQB//9k=",
+      "sessionActive": true
+    },
+    "72781": {
+      "email": "ab",
+      "name": "a",
+      "password": "a",
+      "bio": "Hi! I have recently joined Slackr! :)",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0QDQ0NDg0QDw4QDQ4NDQ4                        NDRsOEA4OFREWFxURFRUYIiggGBolGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRk                        rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOYA2wM                        BIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIH/8QALxABAAEBBwIEBgIDAQAAAAAAAAE                        CAwQREjFRkSFBBTJhcSKBobHB0UJyI1KCFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAA                        AAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+qAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACJnDXp7gkV673RHfH2hz/8AdT/rILg                        qRfqNp+7rReaJ/lz0B2ERKQAAAAAAAAAAAAAAAAAAEChfLxMzNET07+oOltfYjpTGPr2U7S0qq1nH7PI                        oAAAA7WF4mjSImO8NCxtqaoxj5xOsMl6s65pmJhBsDzRVjETHeMXoAAAAAAAAAAAAAAAAHi0ry0zM9oZ                        DQ8Qq+DDeqP2zwAFAAAAAAGlcasaI9Oiwp+HeWr+34W0EgAAAAAAAAAAAAAAAp+I+Wn+0/ZRX/EY+Gn+                        34UAAFAAAAAAFzw6fNHtK8oeHa1+0fdfQAAAAAAAAAAAAAAAAUb/a/wAMNpx/SmsX+Pj/AOY/KuAAoAA                        AAAAsXK1y1ZcPNMRjs0WXdY/yUe7UQSAAAAAAAAAAAAAAACj4jT5Z96Z+6m1LzY56cMcJicYZtpRNMzT                        OsA8gKAAAAAERjMRv0BYuFONeO0TPPRpK91u80Y4z1nDRYQAAAAAAAAAAAAAAAAGdf6cK8d4+rRcL3Y5                        qemsdY9fQGYAoAAAAO1zpxtI9Oriv3GywjNOs6eyC2AAAAAAAAAAAAAAAAAAhKAZd7iItKvlP0cnW9Tj                        aVe+HEYOSgAAAA2aY6QxWzROMRO8RP0QegAAAAAAAAAAAAAAAAc7W1pp1n5dwerSuKYmZ0hQtb5VPl6R                        9UXi9zVExEYR33lXAAUAAAAHaxvNdPTWNpcQGpYW8Vx06Yaw7Mqwt5o06xOsSvWV5oq74TtKDuAAAAAA                        AAAAhyt7xTT6ztClaXuue+EbQDRqqiNZw93C0vlEafF7ftnTMzrOPuAsWl8rnT4Y9NeVeZBQAAAAAAAA                        AAAB1srzXTpOMbT1WrO/Uz5omn6woCDXptKZ0mJ+b2xXSi3rjSr5T1BrCrYXuKulXSd+0rIJAAcbza5a                        ce+kOzPv+M1RGE4RG24KszMzjOveROWdp4Ms7TwogTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTln                        aeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08A                        heuNtj8M6xpO8KWSdp4e7DGK6ZwnWOyDWAAAAAAAAAAAAAAAAAAAAAAAAAAABCQB//9k=",
+      "sessionActive": false
+    },
+    "79067": {
+      "email": "a",
+      "name": "a",
+      "password": "b",
+      "bio": "Hi! I have recently joined Slackr! :)",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0QDQ0NDg0QDw4QDQ4NDQ4                        NDRsOEA4OFREWFxURFRUYIiggGBolGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRk                        rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOYA2wM                        BIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIH/8QALxABAAEBBwIEBgIDAQAAAAAAAAE                        CAwQREjFRkSFBBTJhcSKBobHB0UJyI1KCFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAA                        AAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+qAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACJnDXp7gkV673RHfH2hz/8AdT/rILg                        qRfqNp+7rReaJ/lz0B2ERKQAAAAAAAAAAAAAAAAAAEChfLxMzNET07+oOltfYjpTGPr2U7S0qq1nH7PI                        oAAAA7WF4mjSImO8NCxtqaoxj5xOsMl6s65pmJhBsDzRVjETHeMXoAAAAAAAAAAAAAAAAHi0ry0zM9oZ                        DQ8Qq+DDeqP2zwAFAAAAAAGlcasaI9Oiwp+HeWr+34W0EgAAAAAAAAAAAAAAAp+I+Wn+0/ZRX/EY+Gn+                        34UAAFAAAAAAFzw6fNHtK8oeHa1+0fdfQAAAAAAAAAAAAAAAAUb/a/wAMNpx/SmsX+Pj/AOY/KuAAoAA                        AAAAsXK1y1ZcPNMRjs0WXdY/yUe7UQSAAAAAAAAAAAAAAACj4jT5Z96Z+6m1LzY56cMcJicYZtpRNMzT                        OsA8gKAAAAAERjMRv0BYuFONeO0TPPRpK91u80Y4z1nDRYQAAAAAAAAAAAAAAAAGdf6cK8d4+rRcL3Y5                        qemsdY9fQGYAoAAAAO1zpxtI9Oriv3GywjNOs6eyC2AAAAAAAAAAAAAAAAAAhKAZd7iItKvlP0cnW9Tj                        aVe+HEYOSgAAAA2aY6QxWzROMRO8RP0QegAAAAAAAAAAAAAAAAc7W1pp1n5dwerSuKYmZ0hQtb5VPl6R                        9UXi9zVExEYR33lXAAUAAAAHaxvNdPTWNpcQGpYW8Vx06Yaw7Mqwt5o06xOsSvWV5oq74TtKDuAAAAAA                        AAAAhyt7xTT6ztClaXuue+EbQDRqqiNZw93C0vlEafF7ftnTMzrOPuAsWl8rnT4Y9NeVeZBQAAAAAAAA                        AAAB1srzXTpOMbT1WrO/Uz5omn6woCDXptKZ0mJ+b2xXSi3rjSr5T1BrCrYXuKulXSd+0rIJAAcbza5a                        ce+kOzPv+M1RGE4RG24KszMzjOveROWdp4Ms7TwogTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTln                        aeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08A                        heuNtj8M6xpO8KWSdp4e7DGK6ZwnWOyDWAAAAAAAAAAAAAAAAAAAAAAAAAAABCQB//9k=",
+      "sessionActive": true
+    },
+    "81476": {
+      "email": "c",
+      "name": "c",
+      "password": "d",
+      "bio": "Hi! I have recently joined Slackr! :)",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0QDQ0NDg0QDw4QDQ4NDQ4                        NDRsOEA4OFREWFxURFRUYIiggGBolGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRk                        rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOYA2wM                        BIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIH/8QALxABAAEBBwIEBgIDAQAAAAAAAAE                        CAwQREjFRkSFBBTJhcSKBobHB0UJyI1KCFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAA                        AAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+qAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACJnDXp7gkV673RHfH2hz/8AdT/rILg                        qRfqNp+7rReaJ/lz0B2ERKQAAAAAAAAAAAAAAAAAAEChfLxMzNET07+oOltfYjpTGPr2U7S0qq1nH7PI                        oAAAA7WF4mjSImO8NCxtqaoxj5xOsMl6s65pmJhBsDzRVjETHeMXoAAAAAAAAAAAAAAAAHi0ry0zM9oZ                        DQ8Qq+DDeqP2zwAFAAAAAAGlcasaI9Oiwp+HeWr+34W0EgAAAAAAAAAAAAAAAp+I+Wn+0/ZRX/EY+Gn+                        34UAAFAAAAAAFzw6fNHtK8oeHa1+0fdfQAAAAAAAAAAAAAAAAUb/a/wAMNpx/SmsX+Pj/AOY/KuAAoAA                        AAAAsXK1y1ZcPNMRjs0WXdY/yUe7UQSAAAAAAAAAAAAAAACj4jT5Z96Z+6m1LzY56cMcJicYZtpRNMzT                        OsA8gKAAAAAERjMRv0BYuFONeO0TPPRpK91u80Y4z1nDRYQAAAAAAAAAAAAAAAAGdf6cK8d4+rRcL3Y5                        qemsdY9fQGYAoAAAAO1zpxtI9Oriv3GywjNOs6eyC2AAAAAAAAAAAAAAAAAAhKAZd7iItKvlP0cnW9Tj                        aVe+HEYOSgAAAA2aY6QxWzROMRO8RP0QegAAAAAAAAAAAAAAAAc7W1pp1n5dwerSuKYmZ0hQtb5VPl6R                        9UXi9zVExEYR33lXAAUAAAAHaxvNdPTWNpcQGpYW8Vx06Yaw7Mqwt5o06xOsSvWV5oq74TtKDuAAAAAA                        AAAAhyt7xTT6ztClaXuue+EbQDRqqiNZw93C0vlEafF7ftnTMzrOPuAsWl8rnT4Y9NeVeZBQAAAAAAAA                        AAAB1srzXTpOMbT1WrO/Uz5omn6woCDXptKZ0mJ+b2xXSi3rjSr5T1BrCrYXuKulXSd+0rIJAAcbza5a                        ce+kOzPv+M1RGE4RG24KszMzjOveROWdp4Ms7TwogTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTln                        aeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08AgTlnaeDLO08A                        heuNtj8M6xpO8KWSdp4e7DGK6ZwnWOyDWAAAAAAAAAAAAAAAAAAAAAAAAAAABCQB//9k=",
       "sessionActive": true
     }
   },
   "channels": {
-    "813580": {
-      "name": "public channel",
-      "creator": 15272,
+    "727223": {
+      "name": "b",
+      "creator": 79067,
       "private": false,
-      "description": "",
-      "createdAt": "2021-09-13T08:00:03.220Z",
+      "description": "c",
+      "createdAt": "2021-10-25T00:06:51.672Z",
       "members": [
-        15272,
-        56422
+        79067,
+        17897,
+        81476,
+        47800,
+        72781
       ],
-      "messages": [
-        {
-          "id": 42,
-          "message": "yeah, i do! i just didn't think that you did",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:04.181Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 41,
-          "message": "do you like the music i'm playing?",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:04.173Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 40,
-          "message": "well, it matters because if you're gonna give up your dream, i think it matters that you like what you're playing on the road for years",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:04.165Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 39,
-          "message": "i don't... i don't know what it matters",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:04.141Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 38,
-          "message": "do you like the music you're playing?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:04.119Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 37,
-          "message": "yeah it'll be, this is it. i mean, this is it. it could feasibly be ever. i could be on tour with this... for a couple years at least, just this record",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:04.059Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 36,
-          "message": "um... no, that's not really what i mean. i just mean that you, i mean, you're gonna be on tour for what? months now? years?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:04.032Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 35,
-          "message": "you didn't think it would be successful",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:04.014Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 34,
-          "message": "i don't... i hadn't really thought it through. i didn't know that the band... was so important",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.989Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 33,
-          "message": "i mean, what did you think i was gonna do?",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.967Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 32,
-          "message": "i mean the long haul, like you're gonna stay in this band... for a long time... on tour",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.942Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 31,
-          "message": "what do you mean \"the long haul\"?",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.934Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 30,
-          "message": "so it's like the long haul?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.908Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 29,
-          "message": "you know, we tour so we can make the record so we can go back and tour the record",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.883Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 28,
-          "message": "but after we finish, we're gonna go to record and then we'll go back on tour",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.870Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 27,
-          "message": "when are you finished with the whole tour?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.851Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 26,
-          "message": "what do you mean? i mean...",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.827Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 25,
-          "message": "i know, but when are you done?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.797Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 24,
-          "message": "we're just gonna have to try and see each other, y'know, so that we see each other",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.772Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 23,
-          "message": "but... i wish i could",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.756Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 22,
-          "message": "well...",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.726Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 21,
-          "message": "the best idea right now",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.710Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 20,
-          "message": "okay",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.679Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 19,
-          "message": "so i don't really think that would be...",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.662Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 18,
-          "message": "um... well all my stuff is here and it's in two weeks",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.646Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 17,
-          "message": "i mean... i guess",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.630Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 16,
-          "message": "...anywhere you are?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.616Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 15,
-          "message": "yeah, but can't you rehearse anywhere?",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.582Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 14,
-          "message": "cause i have to rehearse",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.566Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 13,
-          "message": "yeah",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.548Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 12,
-          "message": "come to boise?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.537Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 11,
-          "message": "why can't you?",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.507Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 10,
-          "message": "what are you doing after the tour?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.482Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 9,
-          "message": "oh, that would be... really exciting. i wish i could",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.455Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 8,
-          "message": "yeah, you can knock that off your bucketlist",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.430Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 7,
-          "message": "to boise?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.410Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 6,
-          "message": "you should come",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.387Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 5,
-          "message": "to boise!",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.362Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 4,
-          "message": "boise",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.353Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 3,
-          "message": "boise?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.340Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 2,
-          "message": "yeah, 6:45. boise",
-          "sender": 56422,
-          "sentAt": "2021-09-13T08:00:03.315Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        },
-        {
-          "id": 1,
-          "message": "when do you leave? in the morning?",
-          "sender": 15272,
-          "sentAt": "2021-09-13T08:00:03.296Z",
-          "edited": false,
-          "editedAt": null,
-          "pinned": false,
-          "reacts": []
-        }
-      ]
+      "messages": []
+    },
+    "904521": {
+      "name": "a",
+      "creator": 79067,
+      "private": false,
+      "description": "b",
+      "createdAt": "2021-10-25T00:06:47.963Z",
+      "members": [
+        79067
+      ],
+      "messages": []
     }
   },
-  "nextMessageId": 43
+  "nextMessageId": 1
 }

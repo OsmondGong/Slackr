@@ -1,0 +1,92 @@
+.single-channel-page {
+    display: none;
+    color:white;
+}
+.pinned-messages-container {
+    margin: 10px;
+    overflow-y: auto;
+    width: 95%;
+    height: 95%;
+}
+.invite-users-container {
+    overflow-y: auto;
+    width: 95%;
+    height: 80%;
+}
+.invite-users {
+    display: none;
+    height:30px;
+    background-color: #151922;
+    color: white;
+    border-radius: 3px;
+    border: #ffccbc;
+    border-width: 1px;
+    border-style: solid;
+}
+.single-message-template {
+    display: none;
+    width: 100%;
+    color: white;
+    margin: 10px 0;
+    position: relative;
+}
+.message-options {
+    background: white;
+    color: black;
+    width: 150px;
+    display: none;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 2;
+}
+.message-options-button {
+    display: none;
+    float: right;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.react-button {
+    background-color: darkgray;
+}
+.chatbox-container {
+    background: #151922;
+    border-radius: 15px;
+    width: 100%;
+    height: 75vh;
+    overflow: auto;
+    color: white;
+}
+.chat-header-container {
+    margin: 1vh 2%;
+    height: 5%;
+}
+.single-channel-name {
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.messages-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1vh 2%;
+    width:95%;
+    height:75%;
+    overflow-y: auto;
+}
+.send-messages-container {
+    margin: 1vh 2%;
+    width:95%;
+    height: 6%;
+    overflow-y: auto;
+}
+.send-image-container {
+    margin: 0 2%;
+    width:95%;
+}
+.message-img {
+    max-width:40%;
+    max-height: 150px;
+}

@@ -1,0 +1,11 @@
+div.channel-row:hover {
+    cursor: pointer;
+}
+.channel-row {
+    display: none;
+    height: 30px;
+    border-radius: 3px;
+    border: #ffccbc;
+    border-width: 1px;
+    border-style: solid;
+}

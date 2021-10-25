@@ -5,21 +5,234 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Slackr</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- You can add your styles and scripts here -->
-  <link rel="stylesheet" type="text/css" media="screen" href="styles/provided.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/channelpage.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/grid.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/popup.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/extra.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/singlechannel.css" />
   <script type="module" src="src/helpers.js"></script>
 </head>
 
 <body>
+  <div class="background-tint" id="background-tint"></div>
+  <div id="error-popup" class="error-popup">
+    <button class="button right-button" id="close-error-popup">x</button>
+    <div id="error-text"></div>
+  </div>
+  <div id="create-channel-popup" class="popup">
+    <div>
+      <span>Create Channel</span>
+      <button class="button right-button" id="close-channel-popup">x</button>
+    </div>
+    Channel Name: <input type="text" id="create-channel-name"><br />
+    Private: <input id="create-is-private" type="checkbox"><br />
+    Channel Description: <input type="text" id="create-channel-description"><br />
+    <button id="create-button">Create!</button>
+  </div>
+  <div id="join-channel-popup" class="popup">
+    <button class="button right-button" id="close-join-popup">x</button><br \>
+    <div id="join-channel-name"></div>
+    <div class="button-container">
+      <button class="confirm-button" id="confirm-join-button">join</button>
+      <button class="cancel-button" id="cancel-join-button">cancel</button>
+    </div>
+  </div>
+  <div id="channel-details-popup" class="popup">
+    <button class="button right-button" id="close-channel-details-popup">x</button><br \>
+    Channel Name: <input id="channel-details-name" type="text" disabled></input><br />
+    Channel Description: <input id="channel-details-description" type="text" disabled></input><br />
+    Private: <input id="channel-details-private" type="checkbox" disabled /><br />
+    Creation Date: <span id="channel-creation-date"></span><br />
+    Owner: <span id="channel-owner"></span><br />
+    <button id="edit-channel-details" class="button">edit</button>
+    <button id="close-channel-details" class="button">close</button>
+    <button id="confirm-edit-details" class="button hidden">confirm</button>
+    <button id="cancel-edit-details" class="button hidden">cancel</button> <br/><br/><br/>
+    <button id="leave-channel-button" class="button right-button">leave channel</button>
+  </div>
+  <div id="pinned-messages-popup" class="pinned-messages-popup">
+    <button class="button right-button" id="close-pinned-messages-popup">x</button>
+    <div id="pinned-messages-container" class="pinned-messages-container"></div>
+  </div>
+  <div id="invite-users-popup" class="user-profile-popup">
+    <button class="button right-button" id="close-invite-users-popup">x</button>
+    <div id="invite-users-container" class="invite-users-container"></div>
+    <button id="confirm-invite-button">Invite</button>
+    <button id="cancel-invite-button">Cancel</button>
+  </div>
+  <div id="user-profile-popup" class="user-profile-popup">
+    <div class="user-profile-grid">
+      <div class="grid-name">Username: 
+        <span></span>
+      </div>
+      <div class="grid-email">Email: 
+        <span></span>
+      </div>
+      <div class="grid-bio">Bio: 
+        <span></span>
+      </div>
+      <div class="grid-img">
+        <img alt="profile picture"/>
+      </div>
+    </div>
+  </div>
+  <div id="my-profile-popup" class="user-profile-popup">
+    <div>
+      <button class="button right-button" id="close-profile-popup">x</button> <br/>
+    </div>
+    <div class="my-profile-grid">
+      <div class="grid-name">
+        Username: <input type="text" disabled></input>
+      </div>
+      <div class="grid-email">
+        Email: <input type="text" disabled></input>
+      </div>
+      <div class="grid-password">
+        Password: <input type="password" disabled></input>
+        <button id="password-toggle">Show</button>
+      </div>
+      <div class="grid-bio">
+        Bio: <br /><textarea disabled></textarea>
+      </div>
+      <div class="grid-img">
+        <img alt="profile picture"/>
+        <div id="show-upload" class="hidden">
+          <input id="upload-profile-button" type="file" accept="image/*"/>
+        </div>
+      </div>
+      <div id="edit-profile-button" class="button grid-button">Edit</div>
+      <div class="grid-button hidden">
+        <span id="save-profile-button" class="button">Save</span>
+        <span id="cancel-profile-button" class="button">Cancel</span>
+      </div>
+    </div>
+  </div>
+  <div id="modal-popup" class="modal-popup">
+    <button class="button right-button" id="close-modal-popup">x</button> <br/>
+    <div class="modal-grid" id="modal">
+      <div class="grid-left-button" id="grid-left-button">←</div>
+      <div class="grid-right-button" id="grid-right-button">→</div>
+      <img class="grid-img" id="modal-img" alt="image"/>
+    </div>
+  </div>
   <!-- This is an example app structure, you can modify this as much as you choose -->
-  <header class="banner">
+  <header class="banner" class="pad-site">
     <h1>Slackr</h1>
   </header>
-  <main role="main">
-    <!-- app goes here -->
+  <main role="main" class="pad-site">
+    <div id="home-page">
+      <nav>
+        <span id="login-toggle" class="bold-text">Login</span> |
+        <span id="register-toggle">Register</span>
+      </nav>
+      <hr /> <br />
+      <div id="login-page">
+        Email: <input type="email" id="login-email"><br />
+        Password: <input type="password" id="login-password"><br />
+        <button id="login-button">Login</button>
+      </div>
+      <div id="register-page" class="hidden">
+        Email: <input type="email" id="register-email" /><br />
+        Name: <input type="text" id="register-name"><br />
+        Password: <input type="password" id="register-password"><br />
+        Confirm Password: <input type="password" id="confirm-register-password"><br />
+        <button id="register-button">Register</button>
+      </div>
+    </div>
+    <div id="channel-selection-page" class="hidden">
+      <span class="my-profile user" id="my-profile">
+        <img class="normal-user-img"/>
+        <span></span>
+      </span>
+      <button class="button right-button" id="logout-button">Logout</button>
+      <nav>
+        <span id="my-channels" class="bold-text">My Channels</span> |
+        <span id="joinable-channels">Joinable Channels</span>
+        <span id="create-channel" class="button right-button">Create Channel +</span>
+      </nav>
+      <hr />
+      <br />
+      <div id="top-bar" class="channel-grid">
+        <div class="grid-id">Channel ID</div>
+        <div class="grid-name">Channel Name</div>
+        <div class="grid-owner">Channel Owner</div>
+      </div> <br />
+      <div id="my-channels-page"> 
+      </div>
+      <div id="joinable-page" class="hidden"> 
+      </div>
+    </div>
+    <div id="single-channel-page" class="single-channel-page">
+      <button id="back-button" class="button">Back To Channels</button>
+      <button id="channel-details-button" class="button right-button">Channel Details</button> <br/> <br/>
+      <div class="chatbox-container">
+        <div class="chat-header-container">
+          <span id="single-channel-name" class="single-channel-name"></span>
+          <button id="invite-users-button" class="button right-button white-font">Invite User</button>
+          <button id="pin-message-button" class="button right-button white-font">Pinned Messages</button> <br/>
+        </div>
+        <hr />
+        <div id="messages-container" class="messages-container"></div>
+        <textarea id="send-message-container" class="send-messages-container" type="text" placeholder="Send Message"></textarea>
+        <div class="send-image-container">
+          Send image: <input id="send-image" type="file" accept="image/*"/>
+        </div>
+      </div>
+    </div>
+    <div class="channel-row" id="channel-row-template">
+      <div class="channel-grid">
+        <div class="grid-id"></div>
+        <div class="grid-name"></div>
+        <div class="grid-owner user">
+          <img class="small-user-img"/>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="invite-users" id="invite-user-template">
+      <img class="small-user-img"/>
+      <span></span>
+    </div>
+    <div id="single-message-template" class="single-message-template">
+      <div>
+        <span class="user-name">
+          <img class="small-user-img" />
+          <span class="medium-font"></span> 
+          <span class="small-font">Sent at:</span>
+          <span class="small-font"></span>
+          <span class="small-font hidden">Edited at:</span>
+          <span class="small-font"></span>
+        </span>
+        <button class="message-options-button">...</button>
+      </div>
+      <div class="message">
+        <div></div>
+        <input type="text" class="edit-message-input"></input>
+        <img class="message-img" />
+      </div>
+      <div class="message-options">
+        <div class="hidden">Edit Message</div>
+        <div class="hidden">Delete Message</div>
+        <div>Pin/Unpin Message</div>
+      </div>
+      <div id="reaction" class="reactions-container">
+        <button class="react-button">&#x1F601 <span>0</span></button>
+        <button class="react-button">&#x1F602 <span>0</span></button>
+        <button class="react-button">&#x1F603 <span>0</span></button>
+        <button class="react-button">&#x1F609 <span>0</span></button>
+        <button class="react-button">&#x1F60F <span>0</span></button>
+        <button class="react-button">&#x1F614 <span>0</span></button>
+        <button class="react-button">&#x1F620 <span>0</span></button>
+        <button class="react-button">&#x1F621 <span>0</span></button>
+        <button class="react-button">&#x1F622 <span>0</span></button>
+      </div>
+      <input id="edit-image" type="file" class="hidden" accept="image/*"/>
+    </div>
   </main>
-  <footer>
+  <footer class="pad-site">
     <p>&copy; Slackr</p>
   </footer>
   <script type="module" src="src/main.js"></script>
