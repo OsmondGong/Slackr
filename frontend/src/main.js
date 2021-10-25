@@ -261,10 +261,6 @@ const nextMessages = (channelId, start) => {
         for (let i = 0; i < messageDatas.messages.length; i++) {
             newMessageContainer(messageDatas.messages[i], userData[i], true, document.getElementById("messages-container"));
         }
-        // stop loading messages if all messages have been loaded
-        if (messageDatas.messages.length === 0) {
-            isLoadingMessages = true;
-        }
     })
     .catch((err) => displayError(err));
 }
